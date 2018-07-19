@@ -132,7 +132,7 @@ public class CustomCategoryURLGenerator implements CategoryURLGenerator,
     public void addURLSeries(List urls) {
         List listToAdd = null;
         if (urls != null) {
-            listToAdd = new java.util.ArrayList(urls);
+            listToAdd = new java.util.ArrayList();
         }
         this.urlSeries.add(listToAdd);
     }
